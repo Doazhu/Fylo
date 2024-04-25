@@ -1,0 +1,285 @@
+
+:root{
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Raleway", sans-serif;
+}
+
+.header_up_down{
+    padding-inline: 4rem;
+    margin-inline: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 4rem;
+    margin-bottom: 4rem;
+}
+
+.header_up{
+    display: flex;
+    align-items: center;
+}
+
+.header_up ul{
+    display: flex;
+    gap: 3.5rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header_up a{
+    text-decoration: none;
+}
+
+.hero div{
+    max-width: 640px;
+}
+
+.hero{
+    background-image: url("images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    padding-bottom: 270px;
+    align-items: center;
+}
+
+.hero img{
+    width: 45%;
+}
+
+section{
+    display: flex;
+    padding-inline: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slogan{
+    font-size: 42px;
+    line-height: 4rem;
+    font-weight: bold;
+}
+
+.text_1{
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.form-1 button{
+    background-color: var(--bright-blue) ;
+    border: none;
+    padding-inline: 4rem;
+    padding-block: 0.75rem;
+    color: white;
+    border-radius: 0.25rem;
+    box-shadow: 1px 1px 1px 1px var(--light-gray);
+}
+
+.form-1 button:hover{
+    filter: brightness(125%);
+    cursor: pointer;
+}
+
+.form-1 input{
+    padding-left: 2rem;
+    padding-block: 0.75rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    margin-right: 10px;
+    width: 65%;
+}
+
+
+.img_2{
+    width: 50%;
+}
+
+.form-2{
+    width: 35%;
+    margin-right: 11.1rem;
+}
+
+.form-2 button{
+    background-color: var(--bright-blue) ;
+    border: none;
+    padding-inline: 2rem;
+    padding-block: 0.75rem;
+    color: white;
+    border-radius: 0.25rem;
+    box-shadow: 1px 1px 1px 1px #3a455f7a;
+    margin-top: 10px;
+}
+
+.form-2 button:hover{
+    filter: brightness(125%);
+    cursor: pointer;
+}
+
+.form-2 input{
+    padding-left: 2rem;
+    padding-block: 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    width: 100%;
+    
+}
+
+.get_early_access_today{
+    background-color: var(--desaturated-blue);
+    padding: 6rem 4rem;
+    color: white;
+}
+
+.stay_productive_wherever_you_are{
+    background-color: var(--light-grayish-blue);
+    padding-bottom: 6rem;
+}
+
+.stay_productive_wherever_you_are a{
+    color:var(--moderate-cyan);
+    border-bottom: 1px solid var(--moderate-cyan);
+    text-decoration: none ;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 6px;
+}
+
+.stay_productive_wherever_you_are a:hover{
+    filter: brightness(125%);
+}
+
+.text_2{
+    max-width: 570px;
+}
+
+.card{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    padding: 2rem ;
+    background-color: white;
+    max-width: 400px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px 3px #aaaaaa63;
+}
+.card_title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card_title b{
+    font-size: 16px;
+}
+
+.card_title p {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.card_title img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+.text_3{
+    max-width: 560px;
+    line-height: 1.5rem;
+}
+
+footer{
+    background-color: var(--very-dark-blue);
+    color: var(--light-grayish-blue);
+    padding: 4rem;
+    padding-bottom: 5rem;
+}
+
+.img_phone_email img{
+ padding-right: 1rem;
+}
+
+footer ul{
+    list-style: none; 
+    margin: 0px;
+    padding: 0px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li{
+    padding-top: 16px;
+}
+
+footer a:hover{
+    color: var(--bright-blue);
+}
+
+.footer_nav{
+    display: flex;
+    padding-top: 1rem;
+    gap: 15%;
+
+}
+
+.social_media{
+    display: flex;
+    gap: 10px;
+}
+
+.social_media svg{
+    width: 40px;
+    height: 40px;
+}
+
+.social_media a:hover path{
+    fill: var(--bright-blue);
+}
+
+footer path{
+    fill: #fff;
+}
+
+.instagram{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1.8px solid white ;
+    border-radius: 50%;
+}
+
+.instagram svg{
+    width: 28px;
+    height: 28px;
+
+}
+
+.instagram:hover{
+    border: 1.8px solid var(--bright-blue) ;
+}
